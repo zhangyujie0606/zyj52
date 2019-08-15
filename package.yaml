@@ -1,0 +1,25 @@
+name: 张玉洁的组件-52
+description: 描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十
+keywords:
+  - 张玉洁的标签
+  - network
+  - websocket
+
+
+license: MMMMMMM                                   # GPLv2，LGPLv2.1，MIT，Apache license v2.0，BSD
+
+logo: http://pic.962.net/up/2019-2/2019218144112653750.gif
+source_file:
+  - src/*.c
+
+build_config:
+  include:
+    - include
+  cflag: ""                             # C 编译器所需要要的编译参数
+  define:                                      # 宏定义
+    - CONFIG_USING_TLS
+
+install:
+  - dest: include
+    source:
+      - "include/librws.h"
